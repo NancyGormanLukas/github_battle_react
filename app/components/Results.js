@@ -45,10 +45,10 @@ function Results (props) {
     <MainContainer>
       <h1>Results</h1>
       <div className='col-sm-8 col-sm-offset-2'>
-        <UserDetailsWrapper header='Winner'>
+        <UserDetailsWrapper header='Github Champ'>
           <UserDetails score={props.scores[winningIndex]} info={props.playersInfo[winningIndex]} />
         </UserDetailsWrapper>
-        <UserDetailsWrapper header='Loser'>
+        <UserDetailsWrapper header='Github Newbie'>
           <UserDetails score={props.scores[losingIndex]} info={props.playersInfo[losingIndex]} />
         </UserDetailsWrapper>
       </div>

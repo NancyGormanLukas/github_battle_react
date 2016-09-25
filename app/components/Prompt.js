@@ -36,7 +36,8 @@ Prompt.propTypes = {
   username: PropTypes.string.isRequired,
 }
 
-module.exports = Promptvar React = require('react');
+module.exports = Prompt
+var React = require('react');
 var PropTypes = React.PropTypes;
 var transparentBg = require('../styles').transparentBg;
 
