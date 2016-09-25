@@ -14,10 +14,10 @@ function ConfirmBattle (props) {
     : <MainContainer>
         <h1>Confirm Players</h1>
         <div className='col-sm-8 col-sm-offset-2'>
-          <UserDetailsWrapper header='Player 1'>
+          <UserDetailsWrapper header='Git Master #1'>
             <UserDetails info={props.playersInfo[0]} />
           </UserDetailsWrapper>
-          <UserDetailsWrapper header='Player 2'>
+          <UserDetailsWrapper header='Git Master #2'>
             <UserDetails info={props.playersInfo[1]} />
           </UserDetailsWrapper>
         </div>

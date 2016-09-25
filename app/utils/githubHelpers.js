@@ -24,15 +24,16 @@ function getPlayersData (player) {
     .then(function (totalStars) {
       return {
         followers: player.followers,
-        totalStars: totalStars
+        totalStars: totalStars,
+        //add repos here
       }
     })
 }
 
 function calculateScores (players) {
   return [
-    players[0].followers * 3 + players[0].totalStars,
-    players[1].followers * 3 + players[1].totalStars
+    players[0].followers * 3 + players[0].totalStars * 2,
+    players[1].followers * 3 + players[1].totalStars * 2
   ]
 }
 
