@@ -4,21 +4,36 @@
   "main": "index.js",
   "scripts": {
     "prod": "webpack -p",
-    "start": "webpack-dev-server"
+    "dev": "webpack-dev-server",
+    "start": "node server.js",
+    "watch": "webpack -w"
   },
-  "author": "",
+  "author": "Nancy Lukas",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.14.0",
     "babel-loader": "^6.2.5",
     "babel-preset-react": "^6.11.1",
+    "css-loader": "^0.25.0",
     "html-webpack-plugin": "^2.22.0",
+    "style-loader": "^0.13.1",
     "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.15.1"
+    "webpack-dev-server": "^1.16.1"
   },
   "dependencies": {
-    "react": "^15.3.1",
-    "react-dom": "^15.3.1"
+    "axios": "^0.14.0",
+    "raven-js": "^3.7.0",
+    "react": "^15.3.2",
+    "react-addons-css-transition-group": "^15.3.2",
+    "react-dom": "^15.3.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NancyGormanLukas/github_battle_react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NancyGormanLukas/github_battle_react/issues"
+  },
+  "homepage": "https://github.com/NancyGormanLukas/github_battle_react#readme",
   "description": ""
 }
