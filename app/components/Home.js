@@ -8,7 +8,7 @@ function Home () {
   return (
     <MainContainer>
       <h1>Github Battle</h1>
-      <p className='lead'>Are you a Github Mater or Newbie?</p>
+      <p className='lead'>Are you a Github Master or Newbie?</p>
       <Link to='/playerOne'>
         <button type='button' className='btn btn-lg btn-success'>Get Started</button>
       </Link>
